@@ -1,5 +1,5 @@
 {
-    "name": "YOYOYO",
+    "name": "Makecode Puzzle Challenge",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -8,7 +8,9 @@
         "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
         "arcade-mini-menu": "github:riknoll/arcade-mini-menu#c8b01b9d47f85a5133c786f1c026b1f376fe4285",
         "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
-        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2"
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "tilemapToImage": "github:kiwiphoenix364/pxt-tilemap-image-converter#v1.0.0"
     },
     "files": [
         "main.blocks",
@@ -17,13 +19,14 @@
         "assets.json",
         "tilemap.g.jres",
         "tilemap.g.ts",
-        "custom.ts"
+        "custom.ts",
+        "tilesXtra.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.30",
+        "target": "1.12.47",
         "targetId": "arcade"
     },
     "supportedTargets": [
@@ -42,10 +45,10 @@
         "#003FAD",
         "#87F2FF",
         "#176016",
-        "#CDB2C9",
-        "#5C406c",
+        "#D7CCCC",
+        "#69686A",
         "#A22020",
-        "#91463d",
+        "#845433",
         "#000000"
     ]
 }
